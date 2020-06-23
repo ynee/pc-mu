@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Personal Color & Make up</title>
+	<link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap" rel="stylesheet">
+
+	<link href="//netdna.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+	<style type="text/css">
+
+        html{font-family: 'Noto Serif', serif; font-family: font-family: 'Nanum Gothic', sans-serif;}        
+		nav{background-color:white; height: 55px; position: sticky;top: 0;margin: 0; }
+		nav ul{background:white; height: 55px; margin: 0;padding-left: 0;}
+		nav ul li{list-style-type: none;
+		    float: right;
+		    width: 13%;
+		   text-align: center;
+		   line-height: 60px;margin: 0;font-weight: 700; height: 55px;}
+		nav ul li a{display: block; color: black;background-color: none; font-size: 14px;text-decoration: none; height: 55px;}
+		nav ul li a:hover{
+	    	background: white;
+	    	color: lightgray;
+	    	transition:0.5s;}
+
+
+	    body,h1{margin: 0; font}
+	    header{height: 600px;}
+	    section{margin:0;}
+	    img{}
+	    .row{width:1000px;margin:auto; display: flex; padding: 0px 5px
+		     }
+		.row2{width:1100px;margin:auto; display: flex; padding: 0px 5px}     
+		    
+		.menu{width:1000px;margin:auto; background: orange; padding: 0px 5px
+		     margin-top:10px; margin-bottom: 10px;}     	
+		.col-2{width: 290px margin: 0px 5px;}
+		.col-4{width:490px; margin: 0px 5px; }
+		.col-3{width: 390px; margin: 0px 5px;}
+		.col-6{width: 990px; margin: 0px 5px;}
+		.col2-3{width: 490px; margin: 0px 5px;}
+		.col2-2{width: 340px; margin: 0px 5px;}
+		.col2-4{width: 740px; margin: 0px 5px;}
+		.bg-header{background: url('header.jpg'); background-size: 100% auto; background-attachment: fixed;}
+
+		.padding-top--300{padding-top: -300px;}
+		.padding-top--100{padding-top: -100px;}
+		.padding-top-100{padding-top: 100px;}
+		.padding-top-200{padding-top: 200px;}
+		.padding-top-300{padding-top: 300px;}
+		.padding-top-320{padding-top: 320px;}
+		.padding-top-500{padding-top: 500px;}
+		.padding-top-600{padding-top: 600px;}
+		.padding-top-800{padding-top: 800px;}
+		.padding-top-1000{padding-top: 1000px;}
+		.padding-top-1900{padding-top: 1900px;}
+		.padding-top-4000{padding-top: 4000px;}
+		.padding-top-6000{padding-top: 6000px;}
+		.padding-left-200{padding-left: 200px;}
+		.padding-right-200{padding-right: 200px;}
+		.padding-bottom-30{padding-bottom: 30px;}
+		.padding-bottom-200{padding-bottom: 200px;}
+
+		.NanumGothic-font{font-family: 'Nanum Gothic'}
+
+		.font-ital-700{font-style: italic; font-weight: 700;}
+		.font-size-17{font-size:17px;}
+		.font-size-20{font-size: 20px;}
+		.font-size-25{font-size: 25px;}
+		.font-size-30{font-size: 30px;}
+		.font-size-45{font-size: 45px;}
+		.font-size-50{font-size: 50px;}
+		.font-size-60{font-size: 60px;}
+		.font-weight-400{font-weight: 400;}
+		.font-weight-700{font-weight: 700;}
+		.font-weight-800{font-weight: 800;}
+
+
+
+		.line-height-34{line-height: 34px;}
+		.line-height-60{line-height: 60px;}
+
+		.text-center{text-align: center;}
+		.text-right{text-align: right}
+
+		.color-white{color: white;}
+		.color-green{color: #c6e548;}
+		.color-blue{color: #b2def4;}
+		.color-orange{color: #b23d14;}
+		.color-navy{color: #0c1d68;}
+
+		.list-style-none{list-style-type: none;}
+
+		.bg-red{background-color: red;}
+		.bg-blue{background-color: blue;}
+
+		.align-right{}
+
+		#a1{position: absolute; left:-200px;top:300px;}
+		#a2{position: absolute;}
+		#a3{position: absolute; top:1050px; }
+		#a4{position: absolute; left: 720px; top: 1150px;}
+
+		#b1{position: absolute; left: 490px; top: 1650px;}
+		#b2{position: absolute; left: 550px; top: 1910px;}
+
+		#c1{position: absolute;left: 690px; top: 3400px;} 
+		#c2{position: absolute;left: 270px;top: 3300px;}
+		#c3{position: absolute;left: 1300px; top: 3200px;}
+
+		#d1{position: absolute; left:-10px; }
+		#d2{position: absolute; left: 700px; top:4750px;}
+
+		#e1{position: absolute; top: 4750px; left: 270px;}
+		#e2{position: absolute; left: 1150px; top: 5100px;}
+		#e3{position: absolute; left: -300px; top: 5400px;}
+
+		#f1{position: absolute;left: 800px; top: 6100px;}
+
+		#g1{position: absolute;left: 350px; top: 7000px;}
+		#g2{position: absolute; left: 1050px; top: 7000px;}
+		#g3{position: absolute; left: 750px; top: 7350px;}
+
+		#h4{position: absolute; left: 680px; top: 7750px;}
+		#h1{position: absolute;left: 410px; top: 7895px;}
+		#h2{position: absolute; left: 445px; top: 8170px;}
+		#h3{position: absolute;left: 1285px; top: 8115px;}
+
+	
+		#i2{position: absolute; left: 900px; top: 9000px;}
+		#i3{position: absolute; left: 100px; top: 9200px;}
+
+		#j1{position: absolute; left: 800px; top: 10000px;}
+
+		#k3{position: absolute; top: 10850px; left:1050px; }
+		#k1{position: absolute; top: 10800px; left: 220px;}
+		#k2{position: absolute; top: 11280px; left: 650px;}
+
+		#l1{position: absolute; top: 11800px; left:1220px;}
+		#l2{position: absolute; top: 11950px; left: 240px;}
+		#l3{position: absolute; top: 12120px; left: 800px;}
+		#l4{position: absolute; top: 11720px; left: 600px;}
+
+		#m1{position: absolute; top: 12600px; left: 200px;}
+
+		#n1{position: absolute; top: 13700px; }
+		#n2{position: absolute;top: 13730px; left: 800px;}
+
+		#o4{position: absolute; top: 14400px;}
+		#o5{position: absolute; top: 14520px;}
+		#o1{position: absolute; top: 14600px;}
+		#o3{position: absolute; top: 14600px; left: 930px;}
+		#o2{position: absolute; top: 15080px; left: 650px;}
+
+		#p4{position: absolute; top: 15400px; left: 1050px;}
+		#p5{position: absolute; top: 15500px; left: 600px;}
+		#p1{position: absolute; top: 15675px;left: 330px;}
+		#p2{position: absolute; top: 15800px; left:1230px; }
+		#p3{position: absolute; top: 16000px; left: 400px;}
+		
+		#q4{position:absolute; top:16300px;}
+		#q1{position:absolute; top:16300px;}
+		
+
+		#r1{position: absolute; top: 17300px;}
+		#r2{position: absolute;top: 17350px; left: 800px;}
+
+		#s1{position: absolute; top: 18020px;}
+		#s2{position: absolute; top: 18140px;}
+		#s3{position: absolute; top: 18250px; left: 260px;}
+		#s4{position: absolute; top: 18550px; left: 675px; }
+		#s5{position: absolute; top: 18270px; left: 1030px;}
+
+		#t1{position: absolute; top: 18790px; left: 1050px;}
+		#t2{position: absolute; top: 18890px; left: 600px;}
+		#t3{position: absolute; top: 18990px; left: 460px;}
+		#t4{position: absolute; top: 19200px; left: 320px;}
+		#t5{position: absolute; top: 19200px; left: 1230px;}
+
+
+
+
+	</style>
+</head>
+<body>
+	<nav>
+	<ul>
+		<li><a href="#4" target="_new">Seasonal Personal Color</a></li>
+
+		<li><a href="#3" target="_new">Self Check</a></li>
+
+        <li><a href="#2" target="_new">Warm & Cool</a></li>
+
+		<li><a href="#1" target="_new">Personal Color?</a></li>
+
+    </ul>
+    </nav>
+
+    <header id="d" class="bg-header">
+		<div class="row">
+			<div class="col-6 bg-none">
+				<h1 class="font-ital-700 font-size-60 text-center padding-top-200 padding-right-200">Personal Color</h1>
+				<h1 class="font-ital-700 font-size-60 line-height-60 text-center padding-left-200">& Make up
+				
+			</div>
+			
+		</div>
+	</header>
+
+	<section id="1" class="padding-top-300">
+		<div class="row bg-red">
+			<div class="col-6">
+				<img id="a1" src="foundation.png" width="1500">
+				<h1 id="a2" class="font-ital-700 font-size-45">Personal Color?</h1>
+				<p id="a3" class="NanumGothic-font font-weight-700 font-size-20 line-height-34">사람들은 저마다 다른 피부색을 가지고 있고,<br>그렇기 때문에 어울리는 색도 각자 다르다.<br>이처럼 자신이 가지고 있는 피부색과 조화를 이루어 <br>더욱 생기있고 활기차 보이도록 하는 컬러를<br>'퍼스널 컬러'라고 한다. </p>
+				<img id="a4" src="skin color.png" width="220">
+			</div>	
+		</div>
+	</section>
+
+
+	<section class="padding-top-600">
+		<div class="row">
+			<div class="col-6">
+				<img id="b1" src="warm&cool.png">
+				<h1 id="2" class="font-ital-700 font-size-45 text-right">Warm & Cool</h1>
+				<p class="NanumGothic-font font-weight-700 font-size-20 line-height-34 text-right">퍼스널 컬러는 크게 따뜻한 계열의 '웜톤'과<br>차가운 계열의 '쿨톤'으로 나눌 수 있다.</p>
+				<p id="b2" class="font-ital-700 font-size-25">Warm&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Cool</p>
+			</div>
+		</div>
+	</section>
+
+
+	<section class="padding-top-500">
+		<div class="row">
+			<div class="col-6">
+				<h1 class="font-ital-700 font-size-45 padding-bottom-30">Warm & Cool separation</h1>
+				<img src="warm vs cool.png" width="800" class="padding-bottom-30">
+				<p class="NanumGothic-font font-weight-700 font-size-20 line-height-34">웜톤과 쿨톤은 신체의 고유색에 따라서 구별할 수 있다.<br>손목의 혈관색이 초록색이면 웜톤, 파란색이면 쿨톤이며,<br>눈동자와 머리카락의 색이 밝은 갈색이면 웜톤, 검정색이면 쿨톤으로 구별할 수 있다.</p>
+			</div>
+		</div>
+	</section>
+
+
+
+	<section class="padding-top-300">
+		<div class="row">
+			<div class="col-6">
+				<img id="c2" src="warm color.png" width="250">
+				<img id="c3" src="cool color.png" width="250">
+				<p id="c1" class="font-ital-700 font-size-25 color-white">Warm&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Cool</p>
+				<h1 id="3" class="font-ital-700 font-size-45 padding-bottom-30 text-right">Warm & Cool self-check</h1>
+				<img src="warm cool self check.png" width="750" align="right">
+				<p class="NanumGothic-font font-weight-700 font-size-20 line-height-34 text-right padding-top-320">두 가지 색상 중 손목을 위에 대보았을 때<br>더 혈색있어 보이고 맑아보이는 색상이 자신의 퍼스널컬러이다. </p>
+			</div>
+		</div>
+	</section>
+
+
+	<section class="padding-top-300">
+		<div class="row">
+			<div class="col-6">
+				<h1 class="font-ital-700 font-size-45 padding-bottom-30">Warm & Cool separation</h1>
+				<img id="d1" src="seasonal color.png" width="1000" class="padding-bottom-30">
+				<p id="d2" class="NanumGothic-font font-weight-700 font-size-20 line-height-34">웜톤과 쿨톤은 채도, 명도에 따라 계절별 4가지로 분류할 수 있다.<br></p>
+			</div>
+		</div>
+	</section>
+
+
+	<section class="padding-top-1000">
+		<div class="row">
+			<div class="col-6">
+				<h1 id="4" class="font-ital-700 font-size-50 padding-bottom-30 color-green">Warm Spring</h1>
+				<img id="e1" src="spring 1.png" width="1000">
+				<img id="e2" src="warm img 2.png" width="550">
+				<img id="e3" src="warm img 3.png" width="900">
+			</div>
+		</div>
+	</section>
+
+
+	<section class="padding-top-800">
+		<div class="row">
+			<div class="col-6">
+				<img src="spring colorchip.png" width="400">
+				<p id="f1" class="font-ital-700 font-size-30 line-height-60">#mild<br>#bright<br>#energetic</p>
+			</div>
+		</div>
+	</section>
+
+
+	<section class="padding-top-300">
+		<div class="row">
+			<div class="col-6">
+				<h1 class="font-ital-700 font-size-45 padding-bottom-30 color-green">#Celeb</h1>
+				<img src="spring celeb.png" width="800">
+				<p id="g1" class="NanumGothic-font font-weight-700 font-size-20">아이유</p>
+				<p id="g2" class="NanumGothic-font font-weight-700 font-size-20">송중기</p>
+				<p id="g3" class="NanumGothic-font font-weight-700 font-size-20">수지</p>
+			</div>
+		</div>
+	</section>
+
+
+	<section class="padding-top-300">
+		<div class="row">
+			<div class="col-6">
+				<h1 class="font-ital-700 font-size-45 padding-bottom-30 color-green text-right">#Make up</h1>
+				<img id="h4" src="spring makeup.png" width="600">
+				<p id="h1" class="NanumGothic-font font-weight-700 font-size-20">속눈썹 강조 & 브라운 라이너</p>
+				<p id="h2" class="NanumGothic-font font-weight-700 font-size-20">채도가 높은 오렌지 & 코랄 립</p>
+				<p id="h3" class="NanumGothic-font font-weight-700 font-size-20">둥근 형태의 블러셔
+				</p>
+			</div>
+		</div>
+	</section>
+
+
+	<section class="padding-top-1000 padding-bottom-200">
+		<div class="row">
+			<div class="col-6">
+				<h1 id="4" class="font-ital-700 font-size-50 padding-bottom-30 color-blue">Cool Summer</h1>
+				<img id="i1" src="summer1.png" width="850">
+				<img id="i2" src="summer2.png" width="400">
+				<img id="i3" src="summer3.png" width="350">
+			</div>
+		</div>
+	</section>
+
+	<section class="padding-top-100">
+		<div class="row">
+			<div class="col-6">
+				<img src="summer colorchip.png" width="400">
+				<p id="j1" class="font-ital-700 font-size-30 line-height-60">#cool<br>#clear<br>#fresh</p>
+			</div>
+		</div>
+	</section>
+   	
+
+   	<section class="padding-top-200">
+		<div class="row">
+			<div class="col-6">
+				<h1 class="font-ital-700 font-size-45 padding-bottom-30 color-blue">#Celeb</h1>
+				<img src="summer celeb.png" width="800">
+				<p id="k1" class="NanumGothic-font font-weight-700 font-size-20">아이린</p>
+				<p id="k2" class="NanumGothic-font font-weight-700 font-size-20">손예진</p>
+				<p id="k3" class="NanumGothic-font font-weight-700 font-size-20">차은우</p>
+			</div>
+		</div>
+	</section>
+
+
+	<section class="padding-top-300">
+		<div class="row">
+			<div class="col-6">
+				<h1 class="font-ital-700 font-size-45 padding-bottom-30 color-blue text-right">#Make up</h1>
+				<img id="l4" src="summer makeup.png" width="600">
+				<p id="l1" class="NanumGothic-font font-weight-700 font-size-20">스킨톤과 비슷한 색상의 섀도우</p>
+				<p id="l2" class="NanumGothic-font font-weight-700 font-size-20">자연스러운 핑크색상이나 립밤, 립글로스</p>
+				<p id="l3" class="NanumGothic-font font-weight-700 font-size-20">흰끼와 푸른끼가 많이 도는 핑크, 라벤더 색상의 블러셔
+				</p>
+			</div>
+		</div>
+	</section>
+
+
+
+
+
+	<section class="padding-top-800 padding-bottom-200">
+		<div class="row">
+			<div class="col-6">
+				<h1 class="font-ital-700 font-size-50 padding-bottom-30 color-orange center">
+				Warm Atumn</h1>
+				<img id="m1" src="fall1.png" width="1100">
+		
+			</div>
+		</div>
+	</section>
+
+	<section class="padding-top-100">
+		<div class="row">
+			<div class="col-6">
+				<img id="n1" src="atumn colorchip.png" width="400">
+				<p id="n2" class="font-ital-700 font-size-30 line-height-60">#calm<br>#moody<br>#classy</p>
+			</div>
+		</div>
+	</section>
+   	
+
+   	<section class="padding-top-300">
+		<div class="row">
+			<div class="col-6">
+				<h1 id="o4" class="font-ital-700 font-size-45 padding-bottom-30 color-orange">#Celeb</h1>
+				<img id="o5" src="fall celeb.png" width="800">
+				<p id="o1" class="NanumGothic-font font-weight-700 font-size-20">이효리</p>
+				<p id="o2" class="NanumGothic-font font-weight-700 font-size-20">제니</p>
+				<p id="o3" class="NanumGothic-font font-weight-700 font-size-20">박보검</p>
+			</div>
+		</div>
+	</section>
+
+
+	<section class="padding-top-300">
+		<div class="row">
+			<div class="col-6">
+				<h1 id="p4" class="font-ital-700 font-size-45 padding-bottom-30 color-orange text-right">#Make up</h1>
+				<img id="p5" src="fall makeup.png" width="600">
+				<p id="p1" class="NanumGothic-font font-weight-700 font-size-20">브라운컬러의 음영 섀도우</p>
+				<p id="p2" class="NanumGothic-font font-weight-700 font-size-20 line-height-34">혈색이 없는 가을웜톤의 특성상<br>피부와 자연스럽게 조화되는 블러셔 사용</p>
+				<p id="p3" class="NanumGothic-font font-weight-700 font-size-20">채도가 낮거나 브라운이 가미된 립
+				</p>
+			</div>
+		</div>
+	</section>
+
+
+	<section class="padding-top-1000">
+		<div class="row">
+			<div class="col-6">
+				<h1 id="q4" class="font-ital-700 font-size-50 padding-bottom-30 color-navy">Cool Winter</h1>
+				<img id="q1" src="winter1.png" width="1100">
+				
+			</div>
+		</div>
+	</section>
+
+
+	<section class="padding-top-800">
+		<div class="row">
+			<div class="col-6">
+				<img id="r1" src="winter colorchip.png" width="400">
+				<p id="r2" class="font-ital-700 font-size-30 line-height-60">#vivid<br>#chic<br>#cold</p>
+			</div>
+		</div>
+	</section>
+
+
+<section class="padding-top-300">
+		<div class="row">
+			<div class="col-6">
+				<h1 id="s1" class="font-ital-700 font-size-45 padding-bottom-30 color-navy">#Celeb</h1>
+				<img id="s2" src="winter celeb.png" width="800">
+				<p id="s3" class="NanumGothic-font font-weight-700 font-size-20">치타</p>
+				<p id="s4" class="NanumGothic-font font-weight-700 font-size-20">고준희</p>
+				<p id="s5" class="NanumGothic-font font-weight-700 font-size-20">차승원</p>
+			</div>
+		</div>
+	</section>
+
+
+	<section class="padding-top-300">
+		<div class="row">
+			<div class="col-6">
+				<h1 id="t1" class="font-ital-700 font-size-45 padding-bottom-30 color-navy text-right">#Make up</h1>
+				<img id="t2" src="winter makeup.png" width="600">
+				<p id="t3" class="NanumGothic-font font-weight-700 font-size-20">블랙 아이라인</p>
+				<p id="t4" class="NanumGothic-font font-weight-700 font-size-20">블러셔는 아예 하지 않거나 살짝만 사용
+				</p>
+				<p id="t5" class="NanumGothic-font font-weight-700 font-size-20 padding-bottom-200">명도가 낮은 핑크나 버건디컬러 립
+				</p>
+			</div>
+		</div>
+	</section>
+
+
+	
+
+   	
+
+</body>
+</html>
